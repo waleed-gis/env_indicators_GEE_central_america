@@ -33,6 +33,8 @@ The reporsitory contains source codes, and materials for preparing environmental
 
      a) Agricultural Change
 
+![ENV Indicators](materials/images/agr_change_ss.png?raw=true "Agriculture Change")
+
 - **Name:** UN FAO Drained Organic Soils Area (Annual)
 - **Availability timeperiod:** 1992-2017
 - **Resolution:** 927.67m
@@ -47,6 +49,7 @@ Organic soils cover globally a mere 3 percent of the terrestrial land area but r
 Agriculture is a major cause of drainage of organic soils around the world. Drainage exposes to aerobic conditions the organic matter of organic soils that oxidizes releasing large amounts of harmful greenhouse gases (GHG) to the atmosphere. DROSA-A and DROSE-A are the basis for country and regional statistics on drained organic soils disseminated in three FAOSTAT datasets (Cultivation of Organic Soils; Cropland; and Grassland).
 
      b) Climate Change
+![ENV Indicators](materials/images/drought.png?raw=true "Climate Change")
 
 - **Name:** ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service
 - **Availability timeperiod:** 1979-2020
@@ -63,7 +66,7 @@ ERA5 replaces its predecessor, the ERA-Interim reanalysis.
 ERA5 DAILY provides aggregated values for each day for seven ERA5 climate reanalysis parameters like 2m air temperature.
 
      c) Drought
-
+![ENV Indicators](materials/images/drought.png?raw=true "Drought")
 - **Name:** TerraClimate: Monthly Climate and Climatic Water Balance for Global Terrestrial Surfaces, University of Idaho
 - **Availability timeperiod:** 1958-2021
 - **Resolution:** 4638.3m
@@ -80,7 +83,7 @@ The index uses precipitation and temperature data to study moisture supply and d
 water balance model.
 
      d) Water Scarcity
-
+![ENV Indicators](materials/images/water_scarcity.png?raw=true "Water Scarcity")
 - **Name:** ERA5 Daily Aggregates - Latest Climate Reanalysis Produced by ECMWF / Copernicus Climate Change Service
 - **Availability timeperiod:** 1979-2020
 - **Resolution:** 27830m
@@ -94,7 +97,7 @@ water balance model.
 Values of total precipitation are in unit of m/day (range = 0 to 0.2)
 
      e) Deforestation
-
+![ENV Indicators](materials/images/deforestation.png?raw=true "Deforestation")
 - **Name:** MOD13A2.061 Terra Vegetation Indices 16-Day Global 1km 
 - **Availability timeperiod:** 2000-2022
 - **Resolution:** 1000m
@@ -111,7 +114,7 @@ NDVI > 0.5 represent dense vegetation/forest.
 In general, higher NDVI values represent more vegetation (forestland) and vice versa.
 
      f) Pollution
-
+![ENV Indicators](materials/images/pollution.png?raw=true "Pollution")
 - **Name:** MCD19A2.006: Terra & Aqua MAIAC Land Aerosol Optical Depth Daily 1km
 - **Availability timeperiod:** 2000-2022
 - **Resolution:** 1000m
@@ -127,7 +130,9 @@ and it can be used as a proxy for surface Particulate Matter PM2. 5 (particles s
 diameter). AOD measures the extinction of a ray of light as it passes through the atmosphere.
 
      g) Night Time Lightt
-
+     
+![ENV Indicators](materials/images/dmsp.png?raw=true "DMSP")
+![ENV Indicators](materials/images/viirs.png?raw=true "VIIRS")
 - **Name:** 1) VIIRS Stray Light Corrected Nighttime Day/Night Band Composites Version 1 & 2) DMSP OLS: Nighttime Lights Time Series Version 4, Defense Meteorological Program Operational Linescan System
 - **Availability timeperiod:** 2000-2022 (DMSP=2000-2014 & VIIRS=2014-2022)
 - **Resolution:** 500m (DMSP downscaled to 500m from 927.67m)
@@ -153,7 +158,7 @@ the 'cf_cvg' band and not assume a value of zero in the average radiance image m
 were observed.
 
      h) Land use
-
+![ENV Indicators](materials/images/lulc.png?raw=true "LULC")
 - **Name:** MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m
 - **Availability timeperiod:** 2001-2020
 - **Resolution:** 500m
