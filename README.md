@@ -18,16 +18,16 @@ The reporsitory contains source codes, and materials for preparing environmental
 
 ### Countries shapefiles, for which Env. variables are prepared are:
 
-1. [Belize (BLZ)](resources\adm0_shapefiles\Belize_BLZ)
-2. [Costa Rica (CRI)](resources\adm0_shapefiles\CostaRica_CRI)
-3. [Dominican Republic (DOM)](resources\adm0_shapefiles\DominicanRepublic_DOM)
-4. [EL Salvador (SLV)](resources\adm0_shapefiles\ElSalvador_SLV)
-5. [Guatemala (GTM)](resources\adm0_shapefiles\Guatemala_GTM)
-6. [Haiti (HTI)](resources\adm0_shapefiles\Haiti_HTI)
-7. [Honduras (HND)](resources\adm0_shapefiles\Honduras_HND)
-8. [Mexico (MEX)](resources\adm0_shapefiles\Mexico_MEX)
-9. [Nicargua (NIC)](resources\adm0_shapefiles\Nicaragua_NIC)
-10. [Panama (PAN)](resources\adm0_shapefiles\Panama_PAN)
+1. [Belize (BLZ)](resources/adm0_shapefiles/Belize_BLZ)
+2. [Costa Rica (CRI)](resources/adm0_shapefiles/CostaRica_CRI)
+3. [Dominican Republic (DOM)](resources/adm0_shapefiles/DominicanRepublic_DOM)
+4. [EL Salvador (SLV)](resources/adm0_shapefiles/ElSalvador_SLV)
+5. [Guatemala (GTM)](resources/adm0_shapefiles/Guatemala_GTM)
+6. [Haiti (HTI)](resources/adm0_shapefiles/Haiti_HTI)
+7. [Honduras (HND)](resources/adm0_shapefiles/Honduras_HND)
+8. [Mexico (MEX)](resources/adm0_shapefiles/Mexico_MEX)
+9. [Nicargua (NIC)](resources/adm0_shapefiles/Nicaragua_NIC)
+10. [Panama (PAN)](resources/adm0_shapefiles/Panama_PAN)
 
 ## Deatils of Environmental Variables used in this project:
 
@@ -38,7 +38,7 @@ The reporsitory contains source codes, and materials for preparing environmental
 - **Resolution:** 927.67m
 - **Band used:** cropland
 - **Dataset link:** https://developers.google.com/earth-engine/datasets/catalog/FAO_GHG_1_DROSA_A
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_Agriculture.js](resources/gee_codes/EnvVar_Agriculture.js)
 
 **Description:** 
 
@@ -53,7 +53,7 @@ Agriculture is a major cause of drainage of organic soils around the world. Drai
 - **Resolution:** 27830m
 - **Band used:** Mean 2m Air Temperature
 - **Dataset link:** https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_ClimateChange.js](resources/gee_codes/EnvVar_ClimateChange.js)
 
 **Description:** 
 
@@ -69,7 +69,8 @@ ERA5 DAILY provides aggregated values for each day for seven ERA5 climate reanal
 - **Resolution:** 4638.3m
 - **Band used:** PDSI
 - **Dataset link:**  https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_Drought.js](resources/gee_codes/EnvVar_Drought.js)
+
 
 **Description:** 
 
@@ -85,7 +86,8 @@ water balance model.
 - **Resolution:** 27830m
 - **Band used:** Total Precipitation
 - **Dataset link:**  https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_WaterScarcity.js](resources/gee_codes/EnvVar_WaterScarcity.js)
+
 
 **Description:** 
 
@@ -98,7 +100,7 @@ Values of total precipitation are in unit of m/day (range = 0 to 0.2)
 - **Resolution:** 1000m
 - **Band used:** NDVI
 - **Dataset link:**  https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13A2
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_Deforestation.js](resources/gee_codes/EnvVar_Deforestation.js)
 
 **Description:** 
 
@@ -115,7 +117,7 @@ In general, higher NDVI values represent more vegetation (forestland) and vice v
 - **Resolution:** 1000m
 - **Band used:** Optical Depth 0.47
 - **Dataset link:**  https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD19A2_GRANULES
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_Pollution.js](resources/gee_codes/EnvVar_Pollution.js)
 
 **Description:** 
 
@@ -131,7 +133,7 @@ diameter). AOD measures the extinction of a ray of light as it passes through th
 - **Resolution:** 500m (DMSP downscaled to 500m from 927.67m)
 - **Band used:** VIIRS="avg_vis" & DMSP="avg_rad"
 - **Dataset link:**  (VIIRS): https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMSLCFG?hl=en & (DMSP): https://developers.google.com/earth-engine/datasets/catalog/NOAA_DMSP-OLS_NIGHTTIME_LIGHTS?hl=en#description
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_NTL.js](resources/gee_codes/EnvVar_NTL.js)
 
 **Description:** 
 
@@ -157,7 +159,7 @@ were observed.
 - **Resolution:** 500m
 - **Band used:** LC_Type1
 - **Dataset link:**  https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD12Q1?hl=en#description
-- **GEE Code:** 
+- **GEE Code:** [EnvVar_LULC.js](resources/gee_codes/EnvVar_LULC.js)
 
 **Description:** 
 

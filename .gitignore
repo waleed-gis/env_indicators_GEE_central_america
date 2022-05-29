@@ -128,7 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-\Material\images
+\material\images
 
 
 # *.zip
